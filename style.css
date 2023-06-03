@@ -1,0 +1,71 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0a0414;
+    border: 10px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+#addBtn
+{
+    position: fixed;
+    right: 30px;
+    top: 10px;
+    background: #ede7f6;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 2px #ede7f6; */
+    cursor: pointer;
+    transition: all  0.5s ease-in-out;
+    /* font-size: 1.2rem; */
+    /* border: 2px solid red; */
+}
+#addBtn:hover
+{
+    box-shadow: 1px 1px 2px #ede7f6;
+    background: #d1c4e9;
+}
+.note
+{
+    width: 400px;
+    height: 400px;
+    background-color: #ede7f6;
+    margin-top: 34px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    
+}
+.tool
+{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
+.tool i 
+{
+    padding: 5px;
+    cursor: pointer;
+}
+.note textarea
+{
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 5px;
+    resize: none;
+    background-color: #ede7f6;
+}
